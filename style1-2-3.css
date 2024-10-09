@@ -67,7 +67,9 @@ h2 {
     font-size: 40px;
     color: white;
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
+    margin-left: 50px;
+
 }
 
 .servicos-container {
@@ -90,9 +92,23 @@ h2 {
     max-width: 400px; 
 }
 
-p {
-    margin: 10px 0; 
+#p1 {
+    margin-left: 50px;
     color: white;
+    text-align: left;
+    font-size: 35px;
+}
+
+#p2 {
+    margin-right: 50px;
+    color: white;
+    text-align: right;
+    font-size: 35px;
+}
+
+#h22 {
+    text-align: right;
+    margin-right: 50px;
 }
 
 .servicos-texto a{
