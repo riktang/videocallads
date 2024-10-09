@@ -1,0 +1,202 @@
+@font-face {
+    font-family:'FONTEFODA';
+    src: url(fontes/batmfa__.ttf)format('truetype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header img{
+    text-align: left;
+    height: 155px;
+    padding-top: 0px;
+    float: left;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+    height: 1px;
+    margin-top: 55px;
+}
+
+nav a{
+    background-color: white;
+    padding: 5px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    color: black;
+    font-size: x-large;
+    border: 2px solid black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(254, 220, 255);
+}
+
+nav a:visited{
+    color: purple;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #ccc;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+input {
+    width: 300px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: #333;
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-link a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.login-link a:hover {
+    color: #00ffea;
+}
+
+.submit-button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 120px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.service-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-section h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #00ffea;
+    padding: 10px 10px 10px 10px;
+}
+
+.service-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ccc;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+    border-top: 1px solid #444;
+}
+
+header h1{
+    font-size: 60px;
+    color: white;
+    text-size-adjust: 50px;
+    text-align: center;
+    font-family: 'FONTEFODA', sans-serif;
+    padding-top: 40px
+}
+header h2{
+    font-size: 40px;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+header p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+
+}
+header h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+}
+
+.login-link {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.login-link a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.login-link a:hover {
+    color: #00ffea;
+}

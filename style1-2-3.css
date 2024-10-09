@@ -1,0 +1,101 @@
+@font-face {
+    font-family:'FONTEFODA';
+    src: url(fontes/batmfa__.ttf)format('truetype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+}
+
+header img{
+    text-align: left;
+    height: 155px;
+    padding-top: 0px;
+    float: left;
+}
+
+.profile-icon img{
+    margin-left:1200px;
+    margin-top: -100px;
+    height: 155px;
+    width: 155px;
+}
+
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+    height: 25px;
+    margin-top: 55px;
+}
+
+nav a{
+    background-color: white;
+    padding: 5px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    color: black;
+    font-size: x-large;
+    border: 2px solid black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(254, 220, 255);
+}
+
+nav a:visited{
+    color: purple;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 470px;
+    font-family: 'FONTEFODA', sans-serif;
+    padding: 40px 10px 0px 10px;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.servicos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 10%;
+}
+
+.servicos-texto {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px; 
+}
+
+.Propaganda img {
+    width: auto;
+    max-height: 300px;
+    max-width: 400px; 
+}
+
+p {
+    margin: 10px 0; 
+    color: white;
+}
+
+.servicos-texto a{
+    text-decoration: underline;
+    color: white
+}
