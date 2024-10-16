@@ -56,20 +56,21 @@ h1{
     font-family: 'FONTEFODA', sans-serif;
     padding: 40px 10px 0px  10px;
 }
-h2{
+main h2{
     font-size: 40px;
     color: white;
     margin-top: 30px;
     text-align: center;
 }
-p{
+main p{
     color: white;
     font-size: 40px;
     text-align: center;
     margin-left: 110px;
+    margin-right:110px;
     
 }
-h3{
+main h3{
     color: white;
     font-size: 30px;
     text-align: center;
@@ -80,4 +81,36 @@ h3{
     margin-top: -100px;
     height: 155px;
     width: 155px;
+}
+
+footer{
+    background-color: #25064D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a{
+    color: white;
+}
+
+#p1 {
+    margin-left: 50px;
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+
+#p2 {
+    margin-right: 50px;
+    color: white;
+    text-align: right;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+#h22 {
+    text-align: right;
+    margin-right: 50px;
 }

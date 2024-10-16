@@ -109,7 +109,23 @@ input::placeholder {
     color: #00ffea;
 }
 
-.submit-button {
+.cadastro-button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 120px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.cadastro-button:hover {
+    background-color: #0056b3;
+}
+
+.login-button {
     margin-top: 15px;
     background-color: #007bff;
     color: white;
@@ -120,7 +136,7 @@ input::placeholder {
     cursor: pointer;
 }
 
-.submit-button:hover {
+.login-button:hover {
     background-color: #0056b3;
 }
 
@@ -199,4 +215,16 @@ h1 {
 
 .login-link a:hover {
     color: #00ffea;
+}
+
+footer{
+    background-color: #25064D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a{
+    color: white;
 }

@@ -134,12 +134,14 @@ header h3{
     text-align: center;
 }
 
-video {
+#add {
     border: 10px grey solid;
     border-radius: 20px;
     margin: 25px 5px 5px 5px;
     height: 600px;
-    width: 1485px;
+    width: 900;
+    margin-left: 450px;
+
 }
 
 .profile-icon img{
@@ -147,4 +149,16 @@ video {
     margin-top: -100px;
     height: 155px;
     width: 155px;
+}
+
+footer{
+    background-color: #25064D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a{
+    color: white;
 }

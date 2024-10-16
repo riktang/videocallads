@@ -73,17 +73,19 @@ h2 {
 }
 
 .servicos-container {
-    display: flex;
+    display: left;
     justify-content: space-between;
     align-items: flex-start;
     margin: 0 10%;
 }
 
-.servicos-texto {
+.contatos-texto {
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     text-align: left;
     margin-right: 20px; 
+    text-align: center;
+    margin-bottom: 140px;
 }
 
 .Propaganda img {
@@ -113,5 +115,48 @@ h2 {
 
 .servicos-texto a{
     text-decoration: underline;
-    color: white
+    color: white;
+}
+
+.servicos-texto {
+    color: white;
+    font-size: 45px;
+    margin-right: 20px; 
+    text-align: left;
+}
+
+footer{
+    background-color: #25064D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a{
+    color: white;
+}
+
+.service-section{
+    background: url("imagens/fotor-ai-2024101674915.jpg");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#ad{
+    width: 400px;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 36px;
+    margin-left: 425px;
+}
+
+#addd{
+    width: 400px;
+    height: 400px;
+    margin-top: 0px;
+    border-radius: 36px;
+    margin-left: 425px;
+    margin-bottom: 25px;
 }
